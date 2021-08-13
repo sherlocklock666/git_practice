@@ -17,3 +17,8 @@ git log：	查看提交历史（git log操作后想退出，在英文输入法�
 <提交命令>
 git add .：	添加所有文件到暂存区
 git commit -m"自己输入提交信息"：	提交暂存区的文件到本地仓库
+
+<分支管理>
+git branch -a:	查看所有分支，红色是远程，带*号是当前
+git branch -vv:	查看本地分支与远程分支对应关系
+git checkout 分支名：	切换到该分支
